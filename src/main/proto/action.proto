@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package com.onboarding.crud.api;
+
+option java_multiple_files = true;
+option java_package = "com.onboarding.crud.api";
+option java_outer_classname = "ActionProto";
+
+message UserActionInfo {
+  string action = 1;
+  string user_id = 2;
+}
+
+message SmsSent {
+  bool sms_ok = 1;
+}
+
+service UserActionService {
+  rpc sendAction(UserActionInfo) returns (SmsSent) {};
+}

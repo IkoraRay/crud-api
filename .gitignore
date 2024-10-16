@@ -1,0 +1,77 @@
+# Compiled class file
+*.class
+
+# Maven specific files/directories
+target/
+mvnw
+.mvn/
+
+# Spring Boot devtools
+.restart
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+logs/
+htmlReport/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled Java bytecode
+*.jar
+
+# Generated documentation
+/docs/
+
+# Local configuration file
+application-local.properties
+=======
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
